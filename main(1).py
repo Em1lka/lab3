@@ -34,7 +34,7 @@ try:
             print("Время выполнения: " + str(time.process_time()))
 # Исключения
 except FileNotFoundError: # Файл не обнаружен.
-    print("Файл *.txt не обнаружен.")
+    print("Файл *.txt в директории проекта не обнаружен.")
     print("Время выполнения: " + str(time.process_time()))
 except ValueError(): # Параметр 'numWords' некорректен.
     print("Вы ввели некорректное число.")
